@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #333;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.llave-img {
+    width: 300px;
+    justify-content: center;
+
+}
+
+.flex-item {
+    flex-grow: 1;
+    margin: 20px;
+    max-width: 340px;
+    border: 2px solid #333;
+    padding: 0 20px;
+}
+
+.flex-item:hover {
+    border-color: #71a154;
+    box-shadow: 0px 0px 30px #317124;
+}
+
+.flex-item:focus {
+    border-color: #71a154;
+    box-shadow: 0px 0px 30px #317124;
+}
+
+.btn:hover{
+    background-color: steelblue;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    color: #666;
+    margin: 0;
+    text-align: center;
+}
+
+p b {
+    color: #5bd315;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+input[type="submit"] {
+    background-color: #317124;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.compra{
+    border-color:green;
+}
+
+.h2-compra {
+    color: red solid;
+}
