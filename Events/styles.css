@@ -1,0 +1,19 @@
+button:hover {
+    background-color: blue;
+}
+
+.contenedor {
+    background-color: grey;
+}
+
+.resultado {
+    background-color: red;
+}
+
+.resultado b {
+    color: green;
+}
+
+.resultado b:hover {
+    background-color: hotpink;
+}
