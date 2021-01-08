@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4, minmax(min-content,max-content));
+    grid-auto-rows: 50px;
+}
+
+.grid-container .grid-item {
+    padding: 15px;
+    border: 1px solid #26a;
+    margin: 5px;
+}
+
+.btn {
+    padding: 9px 20px;
+    margin-top: 20px;
+    background: #48e;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.btn:hover {
+    background: #26a;
+    border: none;
+    
+}
