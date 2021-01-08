@@ -15,3 +15,13 @@ document.querySelector('.input-texto').addEventListener('keyup', (e) => {
     let nuevoContenido = `La última tecla que se presionó fue: <b> ${teclaPresionada} </b>`
     document.querySelector('.resultado').innerHTML = nuevoContenido;
 })*/
+
+
+/*********-------TIIMEOUT */
+const tempo1 = setInterval(()=> {
+    document.write('Hola');
+}, 3000);
+
+const tempo = setTimeout(()=> {
+    clearInterval(tempo1)
+}, 5000);
