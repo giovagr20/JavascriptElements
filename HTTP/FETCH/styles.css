@@ -1,0 +1,11 @@
+body {
+    background: #f1f1f1;
+    padding: 5px;
+
+}
+
+.respuesta{
+    color: green;
+    margin-top: 10px;
+    font-size: 20px;
+}
